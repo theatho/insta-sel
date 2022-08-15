@@ -1,0 +1,27 @@
+{
+    "name": "Bin-Checker Bot",
+    "description": "A simple bot to check if the bin is valid or not.",
+    "keywords": [
+        "Bin",
+        "Bot",
+        "Telegra."
+    ],
+    "website": "#TODO",
+    "repository": "https://github.com/hackelite01/BinCheckerBot",
+    "success_url": "/",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "your Telegram Bot Token, from @BotFather"
+        },
+        "SUDO_ID": {
+            "description": "A start message for your bot."
+        }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "image": "heroku/php"
+}
